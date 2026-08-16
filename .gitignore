@@ -1,0 +1,23 @@
+# Node
+node_modules/
+
+# 环境变量与密钥（绝不提交）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# 语言缓存（防御性）
+__pycache__/
+*.pyc
